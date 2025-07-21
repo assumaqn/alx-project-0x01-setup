@@ -1,5 +1,14 @@
+import Header from "@/components/layout/Header";
+
 const PostsPage = () => {
-  return <div className="p-8">Posts Page</div>;
+  return (
+    <div>
+      <Header />
+      <div className="p-8">
+        <h1 className="text-3xl font-bold">Posts Page</h1>
+      </div>
+    </div>
+  );
 };
 
 export default PostsPage;
